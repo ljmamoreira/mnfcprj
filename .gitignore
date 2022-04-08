@@ -1,0 +1,11 @@
+*.aux
+*_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.pdf
+*.log
+*.synctex.gz
+*.swp

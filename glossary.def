@@ -1,0 +1,7 @@
+\newglossaryentry{repo}
+{
+  name=repository,
+  description={Set of files that make up the \texttt{git} project. All the
+    project files under revision control plus all the neccessary configuration
+    and control files}
+}
