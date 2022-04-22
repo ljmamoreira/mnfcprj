@@ -1,10 +1,21 @@
-\documentclass{report}
+\documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[a4paper]{geometry}
 \usepackage{amsmath,icomma,glossaries,graphicx}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em}
+
+\newenvironment{term}{%
+  \vspace{0.5em}
+  \hrule
+}
+{%
+  \hrule
+  \vspace{0.5em}
+}
+
+\newcommand{\git}{\texttt{git}}
 
 \title{A small \LaTeX project for tinkering with \texttt{git}}
 \author{Daniel del Corral Mart\'inez and Lu\'is JM Amoreira}
